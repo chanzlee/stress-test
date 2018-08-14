@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <title>Stress Test</title>
+</head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Stress Test</h2>
+      </div>
+      <form id="stresstest">
+        <div class="form-group">
+          <p>Warning signs</p>
+          <input type="checkbox" name="warning-signs" value="1"> Headache.<br>
+          <input type="checkbox" name="warning-signs" value="1">Lack of sleep.<br>
+          <input type="checkbox" name="warning-signs" value="1">Weakness.<br>
+          <input type="checkbox" name="warning-signs" value="1">Tiredness.<br>
+          <input type="checkbox" name="warning-signs" value="1">Lack of focus.<br>
+
+        </div>
+        <div class="form-group">
+          <p>Health symptoms</p>
+          <input type="checkbox" name="health-symptoms" value="1"> High blood pressure.<br>
+          <input type="checkbox" name="health-symptoms" value="1">Anxiety.<br>
+          <input type="checkbox" name="health-symptoms" value="1">Shaky hands.<br>
+          <input type="checkbox" name="health-symptoms" value="1">nose bleed.<br>
+          <input type="checkbox" name="health-symptoms" value="1">hair loss.<br>
+        </div>
+
+       <button type="submit">Submit Survey</button>
+      </form>
+      <div id="remedy">
+        <ul>
+          <li>Drink Water.</li>
+          <li>Eat Healthy Food.</li>
+          <li>Go to Gym.</li>
+          <li>Do Yoga.</li>
+          <li>Meditate.</li>
+        </ul>
+        <!-- <p value="Drink Water."> Drink Water.</p>
+        <p value="Eat healthy.">Eat healthy.</p>
+        <p value="Go to gym.">Go to gym.</p>
+        <p value="Meditate.">Meditate.</p>
+        <p value="Take frequent breaks..">Take frequent breaks.</p>
+        <p>Take frequent water.</p>
+        <p>Take frequent food.</p>
+        <p>Take frequent sleep.</p> -->
+      </div>
+      <div id="result">
+
+      </div>
+    </div>
+  </body>
+</html>
